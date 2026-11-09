@@ -1,0 +1,5 @@
+base = "shared.toml"
+group = "A3"
+
+[ltn]
+conjunction = "product"

@@ -1,0 +1,9 @@
+# Draft experiment protocol. Start epochs are inclusive and one-based.
+epochs = 20
+download = false
+
+[ltn]
+conjunction = "product"
+exists_schedule = [[1, 1], [5, 2], [9, 4], [13, 6]]
+forall_p = 2
+stable = true

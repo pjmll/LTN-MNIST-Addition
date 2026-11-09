@@ -1,0 +1,9 @@
+# Draft experiment protocol. Run a short pilot with --epochs.
+epochs = 20
+download = false
+
+[ltn]
+conjunction = "lukasiewicz"
+exists_schedule = [[1, 1]]
+forall_p = 2
+stable = true

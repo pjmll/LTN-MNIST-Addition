@@ -1,0 +1,12 @@
+# Interface check on a small subset. Remove the pair limits for full splits.
+seed = 0
+data_seed = 2026
+data_root = "data"
+download = true
+validation_images = 6000
+train_pairs = 512
+validation_pairs = 128
+epochs = 2
+batch_size = 32
+learning_rate = 0.001
+device = "auto"

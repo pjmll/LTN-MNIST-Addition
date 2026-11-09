@@ -1,0 +1,12 @@
+/.venv/
+/.cache/
+__pycache__/
+*.py[cod]
+/data/*
+!/data/.gitkeep
+/experiments/*
+!/experiments/.gitkeep
+/checkpoints/*
+!/checkpoints/.gitkeep
+/figures/*
+!/figures/.gitkeep

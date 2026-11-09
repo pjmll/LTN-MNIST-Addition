@@ -1,0 +1,6 @@
+base = "shared.toml"
+group = "B2"
+
+[ltn]
+conjunction = "lukasiewicz"
+exists_schedule = [[1, 2]]

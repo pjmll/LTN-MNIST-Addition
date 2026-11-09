@@ -1,0 +1,6 @@
+base = "shared.toml"
+group = "A1"
+
+[ltn]
+conjunction = "product"
+exists_schedule = [[1, 1]]

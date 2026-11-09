@@ -1,0 +1,17 @@
+# Draft controls shared by A1–B3. Model seeds can also be supplied with --seed.
+seed = 0
+data_seed = 2026
+data_root = "data"
+download = false
+validation_images = 6000
+epochs = 20
+batch_size = 32
+learning_rate = 0.001
+device = "auto"
+
+[ltn]
+forall_p = 2
+stable = true
+# Existing draft only, pending approval. Used by A3 and B3.
+# Each [start_epoch, p] applies from that epoch until the next stage.
+exists_schedule = [[1, 1], [5, 2], [9, 4], [13, 6]]
